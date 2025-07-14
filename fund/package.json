@@ -1,0 +1,65 @@
+{
+  "name": "funding",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@truffle/contract": "^4.6.31",
+    "assert": "^2.1.0",
+    "crypto": "^1.0.1",
+    "ethers": "^6.15.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "stream": "0.0.2",
+    "url": "^0.11.4",
+    "web-vitals": "^2.1.2",
+    "web3": "^1.6.1"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@types/web3": "^1.2.2",
+    "babel-loader": "^10.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "node-polyfill-webpack-plugin": "^4.1.0",
+    "process": "^0.11.10",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.100.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
